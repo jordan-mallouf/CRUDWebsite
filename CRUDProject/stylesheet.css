@@ -1,0 +1,94 @@
+﻿/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background and text color */
+body {
+    background-color: #e8f5e9; /* Light green */
+    color: #1b5e20; /* Dark green text */
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #1b5e20;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Buttons */
+button, .btn {
+    background-color: #43a047;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover, .btn:hover {
+        background-color: #388e3c;
+    }
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    border: 1px solid #a5d6a7;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2e7d32;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #c8e6c9;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+/* Alerts and messages */
+.alert {
+    padding: 10px;
+    background-color: #c8e6c9;
+    border-left: 5px solid #2e7d32;
+    margin-bottom: 20px;
+}
