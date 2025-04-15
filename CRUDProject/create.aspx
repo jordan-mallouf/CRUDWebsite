@@ -17,6 +17,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Welcome to the Registration Page!</h2>
+    <h3>After you fill out the form, you will be redirected to the login page. Then, you can use the credentials to sign in!</h3>
     <table align="center" class="auto-style1">
         <tr>
             <td class="auto-style3" colspan="2">Please complete the form to register.</td>
@@ -24,14 +25,14 @@
         <tr>
             <td class="auto-style2">Email:</td>
             <td>
-                <asp:TextBox ID="txtEmail" runat="server" CssClass="auto-style4">johndoe@apple.com</asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Email is Required!"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtEmail" runat="server" CssClass="auto-style4"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Email is Required!" ControlToValidate="txtEmail"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style2">Confirm Email:</td>
             <td>
-                <asp:TextBox ID="txtEmailC" runat="server" CssClass="auto-style4">johndoe@apple.com</asp:TextBox>
+                <asp:TextBox ID="txtEmailC" runat="server" CssClass="auto-style4"></asp:TextBox>
                 <asp:CompareValidator ID="cvEmail" runat="server" ControlToCompare="txtEmail" ControlToValidate="txtEmailC" ErrorMessage="Emails do not match!"></asp:CompareValidator>
             </td>
         </tr>
@@ -39,7 +40,7 @@
             <td class="auto-style2">Password:</td>
             <td>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Password is required!"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Password is required!" ControlToValidate="txtPassword"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -52,22 +53,22 @@
         <tr>
             <td class="auto-style2">First Name:</td>
             <td>
-                <asp:TextBox ID="txtFName" runat="server" CssClass="auto-style4">John</asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfFName" runat="server" ErrorMessage="First Name is required!"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtFName" runat="server" CssClass="auto-style4" OnTextChanged="txtFName_TextChanged"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfFName" runat="server" ErrorMessage="First Name is required!" ControlToValidate="txtFName"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style2">Last Name:</td>
             <td>
-                <asp:TextBox ID="txtLName" runat="server" CssClass="auto-style4">Doe</asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfLName" runat="server" ErrorMessage="Last Name is required!"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtLName" runat="server" CssClass="auto-style4"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfLName" runat="server" ErrorMessage="Last Name is required!" ControlToValidate="txtLName"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style2">Year of Birth (YYYY):</td>
             <td>
-                <asp:TextBox ID="txtYOB" runat="server" CssClass="auto-style4">YYYY</asp:TextBox>
-                <asp:RegularExpressionValidator ID="revYOB" runat="server" ErrorMessage="Please use a four digit year!" ValidationExpression="\d{4}"></asp:RegularExpressionValidator>
+                <asp:TextBox ID="txtYOB" runat="server" CssClass="auto-style4"></asp:TextBox>
+                <asp:RegularExpressionValidator ID="revYOB" runat="server" ErrorMessage="Please use a four digit year!" ValidationExpression="\d{4}" ControlToValidate="txtYOB"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>

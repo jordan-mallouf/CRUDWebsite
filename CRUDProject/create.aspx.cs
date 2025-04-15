@@ -43,8 +43,13 @@ namespace CRUDProject
             // Close connection
             registrationConnection.Close();
 
-            // Send to home page
-            Response.Redirect("default.aspx");
+            // Send to login page
+            Response.Redirect("read.aspx");
+        }
+
+        protected void txtFName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

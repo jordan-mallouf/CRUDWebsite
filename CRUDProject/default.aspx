@@ -5,18 +5,15 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Welcome to my CRUD Project!</h1>
-    <h3>This project is to demonstrate foundational knowledge in CRUD operations with Web-Design. In each page, you will be able to find
-        pages relevant to each operation (being Registration, Login, Update and Delete), where credentials will be stored, retrieved and altered in a backend database.
-    </h3>
+    <h3>This project is to demonstrate foundational knowledge in CRUD operations with Web-Design. In each page, you will be able to access a relevant operation (being Registration, Login, Update and Delete), where credentials will be stored, retrieved and altered in a backend database.</h3>
     <ul>
         <li>
             To visit the registration page, click 
             <asp:HyperLink ID="HyperLinkCreate" runat="server" NavigateUrl="create.aspx"><b>here</b></asp:HyperLink>
-        </li>
+            .</li>
         <li>
             To visit the login page, click 
-            <asp:HyperLink ID="HyperLinkRead" runat="server" NavigateUrl="read.aspx"><b>here</b></asp:HyperLink>!
-        </li>
+            <asp:HyperLink ID="HyperLinkRead" runat="server" NavigateUrl="read.aspx"><b>here</b></asp:HyperLink>.</li>
         <li>
             To visit the UPDATE page, click 
             <!-- <asp:HyperLink ID="HyperLinkUpdate" runat="server" NavigateUrl="update.aspx">here</asp:HyperLink> -->

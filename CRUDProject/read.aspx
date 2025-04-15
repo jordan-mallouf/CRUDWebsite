@@ -5,8 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Welcome to the Login Page!</h2>
     <p>Glad to see you&#39;re back!</p>
-<p>The login email is scrappy@unt.edu;</p>
-    <p>The password is "unt123"</p>
+<p>The login email is &#39;<a href="mailto:scrappy@unt.edu">scrappy@unt.edu</a>&#39;, and the password is &#39;unt123&#39;.</p>
+    <p>You can use your <strong>registration credentials</strong>!</p>
 
     <asp:Label ID="lblMessage" runat="server" ForeColor="Red" />
 
