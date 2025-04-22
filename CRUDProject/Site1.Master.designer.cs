@@ -60,15 +60,6 @@ namespace CRUDProject
         protected global::System.Web.UI.WebControls.HyperLink hlRead;
 
         /// <summary>
-        /// hlUpdate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlUpdate;
-
-        /// <summary>
         /// hlDelete control.
         /// </summary>
         /// <remarks>

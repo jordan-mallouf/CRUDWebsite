@@ -27,7 +27,6 @@ namespace CRUDProject
 
             registrationCommand.Connection = registrationConnection;
             
-            // TODO: Make sure column name match with SQL Server Management Studio
             registrationCommand.Parameters.AddWithValue("@Email", txtEmailC.Text);
             registrationCommand.Parameters.AddWithValue("@Password", txtPasswordC.Text);
             registrationCommand.Parameters.AddWithValue("@FName", txtFName.Text);

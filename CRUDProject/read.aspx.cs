@@ -59,6 +59,7 @@ namespace CRUDProject
             {
                 // Success, send to success page and create session variable
                 Session["User"] = sUser;
+                Session["email"] = sEmail;
                 Response.Redirect("success.aspx");
             }
             else

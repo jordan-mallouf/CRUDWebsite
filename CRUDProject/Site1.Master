@@ -15,7 +15,6 @@
             <asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/default.aspx" ForeColor="White" style="margin-right: 20px;">Home</asp:HyperLink>
             <asp:HyperLink ID="hlCreate" runat="server" NavigateUrl="~/create.aspx" ForeColor="White" style="margin-right: 20px;">Register</asp:HyperLink>
             <asp:HyperLink ID="hlRead" runat="server" NavigateUrl="~/read.aspx" ForeColor="White" style="margin-right: 20px;">Login</asp:HyperLink>
-            <!-- <asp:HyperLink ID="hlUpdate" runat="server" NavigateUrl="~/update.aspx" ForeColor="White" style="margin-right: 20px;">Update</asp:HyperLink> -->
             <!-- <asp:HyperLink ID="hlDelete" runat="server" NavigateUrl="~/delete.aspx" ForeColor="White">Delete</asp:HyperLink> -->
         </nav>
         <div>

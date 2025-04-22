@@ -5,8 +5,15 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Welcome to the Login Page!</h2>
     <p>Glad to see you&#39;re back!</p>
-<p>The login email is &#39;<a href="mailto:scrappy@unt.edu">scrappy@unt.edu</a>&#39;, and the password is &#39;unt123&#39;.</p>
-    <p>You can use your <strong>registration credentials</strong>!</p>
+<p>The credentials for the &#39;READ&#39; Assignment are:</p>
+    <p>Email: <a href="mailto:scrappy@unt.edu">scrappy@unt.edu</a></p>
+    <p>Password: unt123</p>
+    <p>&nbsp;</p>
+    <p>The credentials for the &#39;UPDATE&#39; Assignment are:</p>
+    <p>Email: <a href="mailto:jordantest123@gmail.com">jordantest123@gmail.com</a></p>
+    <p>Password: HelloWorld</p>
+    <p>&nbsp;</p>
+    <p>You can use also use your <strong>registration credentials</strong>!</p>
 
     <asp:Label ID="lblMessage" runat="server" ForeColor="Red" />
 

@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="create.aspx" />
     <Content Include="stylesheet.css" />
+    <Content Include="update.aspx" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
     <Content Include="success.aspx" />
@@ -110,6 +111,13 @@
     </Compile>
     <Compile Include="read.aspx.designer.cs">
       <DependentUpon>read.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="update.aspx.cs">
+      <DependentUpon>update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="update.aspx.designer.cs">
+      <DependentUpon>update.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

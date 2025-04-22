@@ -24,7 +24,7 @@ namespace CRUDProject
         protected void btnLogout_Click(object sender, EventArgs e)
         {
             Session["User"] = null;
-            Response.Redirect("default.aspx");
+            Response.Redirect("read.aspx");
         }
     }
 }
