@@ -8,8 +8,6 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.Sql;
 
-// TODO: Add Comments to code and submit.
-
 namespace CRUDProject
 {
     public partial class update : System.Web.UI.Page
