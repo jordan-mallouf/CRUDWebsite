@@ -23,16 +23,16 @@
             width: 234px;
         }
         .auto-style19 {
-        text-align: center;
-        width: 648px;
-    }
+            text-align: center;
+            width: 1018px;
+        }
         .auto-style20 {
         height: 106px;
-        width: 648px;
+        width: 1018px;
     }
         .auto-style21 {
-        width: 648px;
-    }
+            width: 1018px;
+        }
         .auto-style22 {
             width: 234px;
             height: 106px;
@@ -49,7 +49,7 @@
             height: 93px;
         }
         .auto-style39 {
-            width: 648px;
+            width: 1018px;
             height: 93px;
         }
         .auto-style40 {
@@ -62,7 +62,7 @@
         }
         .auto-style43 {
             text-align: center;
-            width: 648px;
+            width: 1018px;
             height: 80px;
         }
         .auto-style44 {
@@ -80,7 +80,7 @@
             height: 111px;
         }
         .auto-style48 {
-            width: 648px;
+            width: 1018px;
             height: 111px;
         }
         .auto-style49 {
@@ -110,7 +110,7 @@
             <td class="auto-style2">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style13"></td>
+            <td class="auto-style13">&nbsp;</td>
             <td class="auto-style5">Email:<strong>
                 <asp:Label ID="lblEmail" runat="server"></asp:Label>
                 </strong></td>
