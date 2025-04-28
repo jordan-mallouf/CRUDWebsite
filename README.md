@@ -1,7 +1,7 @@
 # What is CRUD?
 CRUD is an acronym for four of the major functions when interacting with a database programmatically. These functions are, respectively:
 * (C) Create - Adds new data to the database. For example, adding a new user to a system.
-* (R) Read - Retrieves data from the database, such as viewing a list of all users of searching for a specific one.
+* (R) Read - Retrieves data from the database, such as viewing a list of all users or searching for a specific one.
 * (U) Update - Modifies existing data. For example, changing a user's email address.
 * (D) Delete - Removes data from the database, like deleting an account.
 
