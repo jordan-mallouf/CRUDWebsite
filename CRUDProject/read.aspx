@@ -9,7 +9,7 @@
     <p>Email: <a href="mailto:scrappy@unt.edu">scrappy@unt.edu</a></p>
     <p>Password: unt123</p>
     <p>&nbsp;</p>
-    <p>The credentials for the &#39;UPDATE&#39; Assignment are:</p>
+    <p>The credentials for the &#39;UPDATE&#39; AND &#39;DELETE&#39; Assignments are:</p>
     <p>Email: <a href="mailto:jordantest123@gmail.com">jordantest123@gmail.com</a></p>
     <p>Password: HelloWorld</p>
     <p>&nbsp;</p>

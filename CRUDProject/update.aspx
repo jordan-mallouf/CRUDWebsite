@@ -193,7 +193,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style14">&nbsp;</td>
+            <td class="auto-style13">Click<strong> <a href="delete.aspx">here</a> </strong>to delete you account.</td>
             <td class="auto-style5">
                 <asp:Button ID="btnUpdate" runat="server" OnClick="btnUpdate_Click" Text="Update Information" />
             </td>
